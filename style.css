@@ -1001,7 +1001,7 @@ h6,
 .navigation li a:hover,
 .navigation li.active a,
 .navigation li.disabled {
-	background-color: #1e1e1e;
+	background-color: #252525;
 	border-radius: 3px;
 	cursor: pointer;
 	padding: 12px;
@@ -1010,7 +1010,7 @@ h6,
 
 .navigation li a:hover,
 .navigation li.active a {
-	background-color: #ff2a00;
+	background-color: #a41600;
 }
 
 /* 07a - Single Post Navigation ----------- */
