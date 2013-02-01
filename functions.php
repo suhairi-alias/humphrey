@@ -36,7 +36,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 // Add new image sizes
 add_image_size( 'homepage', 120, 120, TRUE );
-add_image_size( 'thumbnail', 80, 80, TRUE );
+add_image_size( 'small', 80, 80, TRUE );
 add_image_size( 'portfolio', 340, 230, TRUE );
 
 // Create portfolio custom post type
