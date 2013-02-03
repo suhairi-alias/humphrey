@@ -296,6 +296,9 @@ textarea,
 .humphrey-home #genesis-responsive-slider p,
 .post-info,
 .post-meta,
+.post-nav a,
+.post-nav span.next,
+.post-nav span.prev,
 .wp-caption,
 #footer p {
 	font-size: 14px;
