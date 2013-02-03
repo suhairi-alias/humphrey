@@ -102,3 +102,8 @@ genesis_register_sidebar( array(
 	'name'			=> __( 'Home Right', 'humphrey' ),
 	'description'		=> __( 'This is the homepage right section.', 'humphrey' ),
 ) );
+genesis_register_sidebar( array(
+	'id'			=> '404-page',
+	'name'			=> __( '404 Page', 'humphrey' ),
+	'description'		=> __( 'This is the widget area of the 404 Not Found Page Template.', 'humphrey' ),
+) );

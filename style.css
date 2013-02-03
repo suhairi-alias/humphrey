@@ -53,7 +53,8 @@
 	15 Homepage Left
 	16 Homepage Right
 	17 Portfolio Page
-	18 Media Queries
+	18 Widgetized 404 Page
+	19 Media Queries
 		- max-width: 1024px
 		- max-width: 768px
 		- max-width: 480px
@@ -1611,9 +1612,25 @@ html > body.humphrey-home .slide-excerpt-border {
 }
 
 
+/*
+18 Widgetized 404 Page
+---------------------------------------------------------------------------------------------------- */
+
+.error404 .entry-content .widget-area,
+.error404 .entry-content .widget {
+	margin-bottom: 40px;
+	margin-bottom: 2.5rem
+}
+
+.error404 .entry-content .widget_archive select,
+.error404 .entry-content #cat,
+.error404 .entry-content .search-form {
+	width: 75%;
+}
+
 
 /*
-18 Media Queries
+19 Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
 /* Desktops, laptops and iPads (landscape) ----------- */
