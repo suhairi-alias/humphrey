@@ -304,7 +304,8 @@ textarea,
 .post-nav span.next,
 .post-nav span.prev,
 .wp-caption,
-#footer p {
+#footer p,
+#wp-calendar caption {
 	font-size: 14px;
 	font-size: 0.875rem;
 }
@@ -319,7 +320,8 @@ pre,
 
 /* 02d - Font Miscellaneous ----------- */
 
-blockquote p {
+blockquote p,
+#wp-calendar caption {
 	font-style: italic;
 }
 
@@ -348,8 +350,13 @@ h6,
 	font-weight: 700;
 }
 
-.wp-caption {
+.wp-caption,
+#wp-calendar td {
 	text-align: center;
+}
+
+#wp-calendar caption {
+	text-align: right;
 }
 
 h2 a,
@@ -1011,6 +1018,27 @@ p.pages,
 	overflow: hidden;
 	padding: 32px;
 	padding: 2rem;
+}
+
+#wp-calendar {
+	width: 100%;
+}
+
+#wp-calendar caption {
+	padding: 2px 5px 0 0;
+	padding: 0.125rem 0.3125rem 0 0;
+}
+
+#wp-calendar thead {
+	background-color: #f5f5f5;
+	margin: 10px 0 0;
+	margin: 0.625rem 0 0;
+}
+
+#wp-calendar td {
+	background-color: #f5f5f5;
+	padding: 2px;
+	padding: 0.125rem;
 }
 
 
