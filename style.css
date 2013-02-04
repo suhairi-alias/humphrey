@@ -2020,6 +2020,12 @@ html > body.humphrey-home .slide-excerpt-border {
 		width: 100%;
 	}
 
+	.post-type-archive-portfolio .portfolio {
+		margin: 0 0 40px;
+		text-align: center;
+		width: 100%;
+	}
+
 	.genesis-nav-menu li,
 	#footer .creds,
 	#footer .gototop,
