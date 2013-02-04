@@ -179,19 +179,17 @@ input,
 	color: #fff;
 }
 
-#header .genesis-nav-menu a {
+#header .genesis-nav-menu a,
+#header .genesis-nav-menu li li a,
+#header .genesis-nav-menu li li a:link,
+#header .genesis-nav-menu li li a:visited {
 	color: #444;
 }
 
 #header .genesis-nav-menu a:hover,
-#header .genesis-nav-menu .current-menu-item a {
+#header .genesis-nav-menu .current-menu-item a,
+#header .genesis-nav-menu li li a:hover {
 	color: #a41600;
-}
-
-#footer,
-#footer p,
-#footer a {
-	color: #fff;
 }
 
 a,
@@ -216,6 +214,13 @@ textarea {
 button,
 input[type="button"],
 input[type="submit"],
+#homepage-right .enews h4.widgettitle,
+#homepage-right .enews p,
+#footer,
+#footer a,
+#footer p,
+#sidebar .enews h4.widgettitle,
+#sidebar .enews p,
 .btn,
 .genesis-nav-menu .highlight-menu-item a,
 .genesis-nav-menu .highlight-menu-item a:hover,
@@ -325,7 +330,6 @@ pre,
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
-
 
 /* 02d - Font Miscellaneous ----------- */
 
@@ -441,6 +445,7 @@ pre {
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3,
+.post-type-archive-portfolio .portfolio,
 .sidebar,
 #homepage-right {
 	width: 30.909090909%; /* 340px / 1100px */
@@ -1073,7 +1078,6 @@ p.pages,
 
 #subnav .wrap {
 	margin: 0 auto;
-
 	max-width: 1100px;
 }
 
@@ -1090,47 +1094,37 @@ p.pages,
 }
 
 #header .genesis-nav-menu li li a {
-	background: #fff;
+	background-color: #fff;
 	border: 1px solid #ddd;
 	border-top: none;
 }
 
-#header .genesis-nav-menu li li a,
-#header .genesis-nav-menu li li a:link,
-#header .genesis-nav-menu li li a:visited {
-	color: #444;
-}
-
-#header .genesis-nav-menu li li a:hover {
-	color: #a41600;
-}
-
 .menu-primary .current-menu-item a, 
 .menu-primary li a:hover {
-	background: #252525;
+	background-color: #252525;
 }
 
 .menu-primary li .sub-menu li a {
-	background: #252525;
+	background-color: #252525;
 	border: 1px solid #000;
 }
 
 .menu-primary li .sub-menu li a:hover {
-	background: #a41600;
+	background-color: #a41600;
 }
 
 .menu-secondary .current-menu-item a, 
 .menu-secondary li a:hover {
-	background: #a41600;
+	background-color: #a41600;
 }
 
 .menu-secondary li .sub-menu li a {
-	background: #a41600;
+	background-color: #a41600;
 	border: 1px solid #660000;
 }
 
 .menu-secondary li .sub-menu li a:hover {
-	background: #252525;
+	background-color: #252525;
 }
 
 .genesis-nav-menu ul {
@@ -1534,6 +1528,7 @@ label {
 	margin: 0 auto;
 	max-width: 1100px;
 	padding: 0 20px;
+	padding: 0 1.25rem;
 }
 
 #footer .creds {
@@ -1553,16 +1548,18 @@ label {
 	line-height: 1.5;
 	overflow: hidden;
 	padding: 20px 0 20px;
+	padding: 1.25rem 0 1.25rem;
 	width: 100%;
 }
 
 .footer-widgets .wrap {
 	background-color: #fff;
 	clear: both;
-	overflow: hidden;
-	padding: 40px;
 	margin: 0 auto;
 	max-width: 1100px;
+	overflow: hidden;
+	padding: 40px;
+	padding: 2.5rem;
 }
 
 .footer-widgets p {
@@ -1663,16 +1660,6 @@ input:hover[type="submit"],
 	text-align: center;
 }
 
-#homepage-right .enews p,
-#sidebar .enews p {
-	color: #fff;
-}
-
-#homepage-right .enews h4.widgettitle,
-#sidebar .enews h4.widgettitle {
-	color: #fff;
-}
-
 #homepage-right .enews #subbox,
 #homepage-right .enews #subbox1,
 #homepage-right .enews #subbox2,
@@ -1771,6 +1758,7 @@ p.wp-caption-text {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	padding: 4px;
+	padding: 0.25rem;
 }
 
 .humphrey-home .featuredpost .alignleft img {
@@ -1800,9 +1788,9 @@ p.wp-caption-text {
 
 .humphrey-home #genesis-responsive-slider {
 	border: 1px solid #ddd;
+	box-shadow: 0 8px 6px -6px #333;
 	margin: 0 auto;
 	width: auto;
-	box-shadow: 0 8px 6px -6px #333;
 }
 
 .humphrey-home #genesis-responsive-slider img {
@@ -1816,6 +1804,7 @@ p.wp-caption-text {
 	background-color: #1b1b1b;
 	margin: 0;
 	padding: 0px 3px;
+	padding: 0px 0.1875rem;
 }
 
 .humphrey-home #genesis-responsive-slider .flex-direction-nav li .next,
@@ -1857,9 +1846,9 @@ html > body.humphrey-home .slide-excerpt-border {
 ---------------------------------------------------------------------------------------------------- */
 
 #homepage-welcome {
-	clear:both;
 	border-bottom: double #ccc;
 	border-top: double #ccc;
+	clear: both;
 	line-height: 1.5;
 	margin: 0 0 40px;
 	margin: 0 0 2.5rem;
@@ -1911,9 +1900,9 @@ html > body.humphrey-home .slide-excerpt-border {
 	border-bottom: 1px dashed #ccc;
 	margin-bottom: 32px;
 	margin-bottom: 2rem;
+	overflow: hidden;
 	padding-bottom: 32px;
 	padding-bottom: 2rem;
-	overflow: hidden;
 }
 
 #homepage-right.widget-area ul li {
@@ -1942,10 +1931,8 @@ html > body.humphrey-home .slide-excerpt-border {
 .post-type-archive-portfolio .portfolio {
 	float: left;
 	margin: 20px 10px 60px;
-	width: 340px;
+	margin: 1.25rem 0.625rem 3.75rem;
 }
-
-
 
 .single-portfolio #content {
 	text-align: center;
@@ -1957,6 +1944,7 @@ html > body.humphrey-home .slide-excerpt-border {
 
 .single-portfolio h1 {
 	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
 }
 
 .single-portfolio .hentry {
