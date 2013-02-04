@@ -157,11 +157,10 @@ h2 a,
 h2 a:visited,
 h4.widgettitle a,
 input,
-.author,
-.date,
-.post-comments,
 #title a,
-#title a:hover {
+#title a:hover,
+.post-info a:hover,
+.post-meta a:hover {
 	color: #444;
 }
 
@@ -197,17 +196,20 @@ h2 a:hover {
 	color: #a41600;
 }
 
-.post-info,
-.post-meta,
+
 #description {
-	color: #636363;
+	color: #444;
 }
 
 blockquote::before,
 blockquote p,
 input,
 select,
-textarea {
+textarea,
+.post-info,
+.post-info a,
+.post-meta,
+.post-meta a {
 	color: #999;
 }
 
@@ -326,8 +328,6 @@ select,
 textarea,
 .genesis-nav-menu,
 .humphrey-home #genesis-responsive-slider p,
-.post-info,
-.post-meta,
 .post-nav a,
 .post-nav span.next,
 .post-nav span.prev,
@@ -337,6 +337,8 @@ textarea,
 	font-size: 0.875rem;
 }
 
+.post-info,
+.post-meta,
 #footer p {
 	font-size: 12px;
 	font-size: 0.75rem;
@@ -353,6 +355,10 @@ cite {
 	font-style: normal;
 }
 
+body {
+	font-weight: 400;
+}
+
 button,
 input[type="button"],
 input[type="submit"],
@@ -365,9 +371,6 @@ h6,
 .btn,
 .entry-title a,
 .genesis-nav-menu,
-.post-comments,
-.post-info .author,
-.post-info .date,
 .wp-caption,
 #footer p,
 #title {
@@ -388,6 +391,8 @@ h2 a:visited,
 .footer-widgets a:hover,
 .genesis-nav-menu a,
 .navigation li a,
+.post-info a,
+.post-meta a,
 .widgettitle a,
 #footer a,
 #title a {
@@ -396,6 +401,11 @@ h2 a:visited,
 
 #footer a:hover {
 	text-decoration: underline;
+}
+
+.post-info,
+.post-meta {
+	text-transform: uppercase;
 }
 
 code {
