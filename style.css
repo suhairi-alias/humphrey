@@ -222,6 +222,11 @@ input[type="submit"],
 #sidebar .enews h4.widgettitle,
 #sidebar .enews p,
 .btn,
+.footer-widgets,
+.footer-widgets a,
+.footer-widgets a:hover,
+.footer-widgets p,
+.footer-widgets h4,
 .genesis-nav-menu .highlight-menu-item a,
 .genesis-nav-menu .highlight-menu-item a:hover,
 .navigation li a,
@@ -378,6 +383,7 @@ h6,
 
 h2 a,
 h2 a:visited,
+.footer-widgets a:hover,
 .genesis-nav-menu a,
 .navigation li a,
 .widgettitle a,
@@ -1552,7 +1558,7 @@ label {
 }
 
 .footer-widgets .wrap {
-	background-color: #fff;
+	background-color: #252525;
 	clear: both;
 	margin: 0 auto;
 	max-width: 1100px;
