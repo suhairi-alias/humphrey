@@ -307,6 +307,13 @@ h6,
 	font-size: 1rem;
 }
 
+code,
+pre,
+.gist {
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
 input,
 select,
 textarea,
@@ -318,17 +325,14 @@ textarea,
 .post-nav span.next,
 .post-nav span.prev,
 .wp-caption,
-#footer p,
 #wp-calendar caption {
 	font-size: 14px;
 	font-size: 0.875rem;
 }
 
-code,
-pre,
-.gist {
-	font-size: 15px;
-	font-size: 0.9375rem;
+#footer p {
+	font-size: 12px;
+	font-size: 0.75rem;
 }
 
 /* 02d - Font Miscellaneous ----------- */
