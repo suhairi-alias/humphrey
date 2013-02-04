@@ -1089,6 +1089,22 @@ p.pages,
 	width: auto;
 }
 
+#header .genesis-nav-menu li li a {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+#header .genesis-nav-menu li li a,
+#header .genesis-nav-menu li li a:link,
+#header .genesis-nav-menu li li a:visited {
+	color: #444;
+}
+
+#header .genesis-nav-menu li li a:hover {
+	color: #a41600;
+}
+
 .menu-primary .current-menu-item a, 
 .menu-primary li a:hover {
 	background: #252525;
