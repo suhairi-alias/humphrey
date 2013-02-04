@@ -1988,6 +1988,7 @@ html > body.humphrey-home .slide-excerpt-border {
 	#wrap {
 		max-width: 960px;
 	}
+
 	#subnav .wrap {
 		max-width: 960px;
 	}
@@ -2004,9 +2005,9 @@ html > body.humphrey-home .slide-excerpt-border {
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3,
-	.wrap,
 	#footer .creds,
-	#footer .gototop,#footer .wrap,
+	#footer .gototop,
+	#footer .wrap,
 	#header .widget-area,
 	#homepage-left,
 	#homepage-right,
@@ -2053,7 +2054,9 @@ html > body.humphrey-home .slide-excerpt-border {
 		width: 50%;
 	}
 
-	.genesis-nav-menu li.right {
+	.flex-direction-nav,
+	.genesis-nav-menu li.right,
+	.humphrey-home .slide-excerpt {
 		display: none;
 	}
 
@@ -2075,6 +2078,10 @@ html > body.humphrey-home .slide-excerpt-border {
 
 	html {
 		font-size: 87.5%; /* 14px base */
+	}
+
+	#genesis-responsive-slider {
+		display: none;
 	}
 
 	#header .search-form {
