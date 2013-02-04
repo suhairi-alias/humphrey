@@ -457,8 +457,8 @@ pre {
 	width: 37.777777777%; /* 340px / 900px */
 }
 
-#title-area {
-	width: 40.909090909%; /* 450px / 1100px */
+#header .widget-area {
+	width: 36.363636363% /* 400px / 1100 */
 }
 
 .content-sidebar-sidebar #content,
@@ -467,8 +467,8 @@ pre {
 	width: 57.777777777%; /* 520px / 900px */
 }
 
-#header .widget-area {
-	width: 59.090909090%; /* 650px / 1100px */
+#title-area {
+	width: 60% /* 660px / 1100px */
 }
 
 .content-sidebar #content,
@@ -521,14 +521,9 @@ pre {
 #header {
 	min-height: 120px;
 	overflow: hidden;
-	padding-bottom: 32px;
-	padding-bottom: 2rem;
 }
 
 #title {
-	line-height: 1;
-	margin: 40px 0 8px;
-	margin: 2.5rem 0 0.5rem;
 }
 
 .header-image #title {
@@ -553,7 +548,7 @@ pre {
 	min-height: 120px;
 	overflow: hidden;
 	text-indent: -9999px;
-	width: 50%;
+	width: 60%;
 }
 
 .header-image #description {
