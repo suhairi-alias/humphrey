@@ -534,6 +534,9 @@ pre {
 }
 
 #title {
+	line-height: 1;
+	margin: 10px 0 8px;
+	margin: 0.625rem 0 0.5rem;
 }
 
 .header-image #title {
