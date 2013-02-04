@@ -179,6 +179,15 @@ input,
 	color: #fff;
 }
 
+#header .genesis-nav-menu a {
+	color: #444;
+}
+
+#header .genesis-nav-menu a:hover,
+#header .genesis-nav-menu .current-menu-item a {
+	color: #a41600;
+}
+
 #footer,
 #footer p,
 #footer a {
@@ -433,7 +442,6 @@ pre {
 .footer-widgets-2,
 .footer-widgets-3,
 .sidebar,
-#header .widget-area,
 #homepage-right {
 	width: 30.909090909%; /* 340px / 1100px */
 }
@@ -444,16 +452,23 @@ pre {
 	width: 37.777777777%; /* 340px / 900px */
 }
 
+#title-area {
+	width: 40.909090909%; /* 450px / 1100px */
+}
+
 .content-sidebar-sidebar #content,
 .sidebar-content-sidebar #content,
 .sidebar-sidebar-content #content {
 	width: 57.777777777%; /* 520px / 900px */
 }
 
+#header .widget-area {
+	width: 59.090909090%; /* 650px / 1100px */
+}
+
 .content-sidebar #content,
 .sidebar-content #content,
-#homepage-left,
-#title-area {
+#homepage-left {
 	width: 65.454545454%; /* 720px / 1100px */
 }
 
