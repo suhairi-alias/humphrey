@@ -42,11 +42,11 @@ Humphrey also contains 2 additional widget areas:
 <strong>Genesis Featured Posts</strong>
 
 1. Check Show Featured Image
-2. Select Image Size homepage 120x120 from drop menu
+2. Select Image Size homepage 150x150 from drop menu
 3. Select Left for Image Alignment
 4. Check Show Post Title. Do not check Show Post Info
 5. Select Show Content Limit for Content Type from drop menu
-6. Enter 350 into Limit content to text field
+6. Enter 300 into Limit content to text field
 
 The rest of the widgets are self-evident I think.
 
