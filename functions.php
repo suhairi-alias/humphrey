@@ -131,14 +131,6 @@ function humphrey_remove_elements() {
 		remove_action( 'genesis_before_post_content', 'genesis_post_info' );
 		remove_action( 'genesis_after_post_content', 'genesis_post_meta' );
 	}
-
-	// Add back, as post has no format
-	else {
-		add_action( 'genesis_post_title', 'genesis_do_post_title' );
-		add_action( 'genesis_before_post_content', 'genesis_post_info' );
-		add_action( 'genesis_after_post_content', 'genesis_post_meta' );
-	}
-
 }
 
 // Reposition the footer widgets
