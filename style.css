@@ -196,7 +196,6 @@ h2 a:hover {
 	color: #a41600;
 }
 
-
 #description {
 	color: #444;
 }
@@ -1553,9 +1552,9 @@ label {
 	border-bottom: 1px dashed #ccc;
 	margin-bottom: 32px;
 	margin-bottom: 2rem;
+	overflow: hidden;
 	padding-bottom: 32px;
 	padding-bottom: 2rem;
-	overflow: hidden;
 }
 
 .sidebar.widget-area ul li {
@@ -2086,6 +2085,7 @@ html > body.humphrey-home .slide-excerpt-border {
 
 	.post-type-archive-portfolio .portfolio {
 		margin: 0 0 40px;
+		margin: 0 0 2.5rem;
 		text-align: center;
 		width: 100%;
 	}
