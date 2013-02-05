@@ -134,9 +134,9 @@ genesis_register_sidebar( array(
 	'description'		=> __( 'This is the homepage right section.', 'humphrey' ),
 ) );
 genesis_register_sidebar( array(
-	'id'		=> 'after-post-block',
-	'name'		=> __( 'After Post Block', 'humphrey' ),
-	'description'	=> __( 'This is the after post block section.', 'humphrey' ),
+	'id'			=> 'after-post-block',
+	'name'			=> __( 'After Post Block', 'humphrey' ),
+	'description'		=> __( 'This is the after post block section.', 'humphrey' ),
 ) );
 genesis_register_sidebar( array(
 	'id'			=> '404-page',
