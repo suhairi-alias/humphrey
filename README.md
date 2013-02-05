@@ -65,19 +65,22 @@ The Portfolio Page makes use of a Custom Post Type called Portfolio. To add item
 4. Add a short description
 
 On the demo site I uploaded large images with the Max Width being set as 1024 as per the settings at Settings > Media. These are displayed on the Portfolio single post pages.
-The theme creates the 340 x 230 image size which is displayed on the Portfolio category page.
+The theme creates the 340 x 230 image size which is displayed on the Portfolio category page. Be sure to re-save your permalinks or the Custom Post Type may not display.
 
 ## Image Sizes
 In addition to the image sizes created by WordPress as per your settings at Settings > Media, Humphrey comes with the following image sizes as defined in the `functions.php` file:
 
-homepage (120 x 120)
-small (80 x 80)
-portfolio (340 x 230)
+1. homepage (120 x 120)
+2. small (80 x 80)
+3. portfolio (340 x 230)
 
 You will probably have to regenerate your images for them to display properly. Refer to the section below called Recommended Plugins for details.
 
 ## Custom Content Boxes
-The custom content boxes make use of DIV classes. For example, `<div class="content-box-blue">some random text</div>`
+The custom content boxes make use of DIV classes. For example,
+
+`<div class="content-box-blue">some random text</div>`
+
 There are 6 styles to choose from. Refer to the style sheet for details.
 
 ## Gradient Buttons
