@@ -100,6 +100,44 @@ function humphrey_portfolio_items( $query ) {
 
 }
 
+// Add support for post formats
+add_theme_support( 'post-formats', array(
+	'aside',
+	'audio',
+	'chat',
+	'gallery',
+	'image',
+	'link',
+	'quote',
+	'status',
+	'video'
+) );
+
+add_theme_support( 'genesis-post-format-images' );
+
+// Remove elements for post formats
+add_action( 'genesis_before_post', 'humphrey_remove_elements' );
+function humphrey_remove_elements() {
+	
+	if ( ! current_theme_supports( 'post-formats' ) )
+		return;
+
+	// Remove if post has format
+	if ( get_post_format() ) {
+		remove_action( 'genesis_post_title', 'genesis_do_post_title' );
+		remove_action( 'genesis_before_post_content', 'genesis_post_info' );
+		remove_action( 'genesis_after_post_content', 'genesis_post_meta' );
+	}
+
+	// Add back, as post has no format
+	else {
+		add_action( 'genesis_post_title', 'genesis_do_post_title' );
+		add_action( 'genesis_before_post_content', 'genesis_post_info' );
+		add_action( 'genesis_after_post_content', 'genesis_post_meta' );
+	}
+
+}
+
 // Reposition the footer widgets
 remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
 add_action( 'genesis_after', 'genesis_footer_widget_areas' );
