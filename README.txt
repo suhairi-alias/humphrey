@@ -42,11 +42,11 @@ Humphrey also contains 2 additional widget areas:
 <strong>Genesis Featured Posts</strong>
 
 1. Check Show Featured Image
-2. Select Image Size homepage 150x150 from drop menu
+2. Select Image Size homepage 120x120 from drop menu
 3. Select Left for Image Alignment
 4. Check Show Post Title. Do not check Show Post Info
 5. Select Show Content Limit for Content Type from drop menu
-6. Enter 300 into Limit content to text field
+6. Enter 350 into Limit content to text field
 
 The rest of the widgets are self-evident I think.
 
@@ -85,6 +85,22 @@ Each button has a unique class.
 
 The above will render the Green button. There are 11 styles to choose from. Refer to the style sheet for details.
 
+<h4>POST FORMATS</h4>
+Humphrey comes with support for the following Post Formats:
+
+1. Aside
+2. Audio
+3. Chat
+4. Gallery
+5. Image
+6. Link
+7. Quote
+8. Status
+9. Video
+
+To use them simply select the appropriate Format from the Post Format metabox in the Add New Post screen.
+Further reading on Post Formats at http://codex.wordpress.org/Post_Formats
+
 <h4>RECOMMENDED PLUGINS</h4>
 1. Genesis Responsive Slider - http://wordpress.org/extend/plugins/genesis-responsive-slider
 2. Genesis eNews Extended - http://wordpress.org/extend/plugins/genesis-enews-extended/
@@ -96,6 +112,7 @@ The above will render the Green button. There are 11 styles to choose from. Refe
 3. Gradient Buttons by Brian Gardner - http://www.briangardner.com/social-media-buttons/
 4. Widgetized 404 Page by David Decker - http://genesisthemes.de/en/2011-08/tutorial-widgetized-404-error-page-in-genesis/
 5. Icons for eNews input fields by iconmonstr - http://iconmonstr.com/
+6. Post Format icons by StudioPress - http://www.studiopress.com/graphics/post-format-icons
 
 <h4>FURTHER</h4>
 1. Theme Page - http://wpcanada.ca/our-themes/humphrey/

@@ -90,17 +90,35 @@ Each button has a unique class.
 
 The above will render the Green button. There are 11 styles to choose from. Refer to the style sheet for details.
 
+## Post Formats
+Humphrey comes with support for the following Post Formats:
+
+1. Aside
+2. Audio
+3. Chat
+4. Gallery
+5. Image
+6. Link
+7. Quote
+8. Status
+9. Video
+
+To use them simply select the appropriate Format from the Post Format metabox in the Add New Post screen.
+
+Further reading on Post Formats at http://codex.wordpress.org/Post_Formats
+
 ## Recommended Plugins
 1. [Genesis Responsive Slider](http://wordpress.org/extend/plugins/genesis-responsive-slider/)
 2. [Genesis eNews Extended](http://wordpress.org/extend/plugins/genesis-enews-extended/)
 3. [Regenerate Thumbnails](http://wordpress.org/extend/plugins/regenerate-thumbnails/)
 
 ## Credit
-1. Content Boxes by Brian Gardner http://www.briangardner.com/genesis-content-boxes/
+1. Content Boxes by Brian Gardner - http://www.briangardner.com/genesis-content-boxes/
 2. Custom Post Type Portfolio Page by Brian Gardner - http://www.briangardner.com/portfolio-page/
-3. Gradient Buttons by Brian Gardner http://www.briangardner.com/social-media-buttons/
-4. Widgetized 404 Page by David Decker http://genesisthemes.de/en/2011-08/tutorial-widgetized-404-error-page-in-genesis/
+3. Gradient Buttons by Brian Gardner - http://www.briangardner.com/social-media-buttons/
+4. Widgetized 404 Page by David Decker - http://genesisthemes.de/en/2011-08/tutorial-widgetized-404-error-page-in-genesis/
 5. Icons for eNews input fields by iconmonstr - http://iconmonstr.com/
+6. Post Format icons by StudioPress - http://www.studiopress.com/graphics/post-format-icons
 
 ## Further
 1. [Theme Release Page](http://wpcanada.ca/our-themes/humphrey/)
