@@ -292,6 +292,7 @@ h3 {
 }
 
 h4,
+.after-post-block h4,
 .archive-title,
 .humphrey-home #genesis-responsive-slider h2,
 .humphrey-home #genesis-responsive-slider h2 a,
@@ -377,6 +378,7 @@ h6,
 	font-weight: 700;
 }
 
+.after-post-block,
 .wp-caption,
 #wp-calendar td {
 	text-align: center;
@@ -610,6 +612,11 @@ pre {
 .entry-content,
 .entry-content p {
 	line-height: 1.625;
+}
+
+.after-post-block p {
+	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
 }
 
 .entry-content p {
@@ -999,9 +1006,25 @@ a.button-red:hover {
 
 /* 03i - Miscellaneous ----------- */
 
+.after-post-block,
+.after-post-block .wrap,
 .featuredpost .post,
 #homepage-right {
 	overflow: hidden;
+}
+
+.after-post-block {
+	border: 1px dashed #ccc;
+	margin-top: 32px;
+	margin-top: 2rem;
+	padding: 16px;
+	padding: 1rem;
+}
+
+.after-post-block .wrap {
+	background-color: #fff;
+	padding: 32px;
+	padding: 2rem;
 }
 
 p.subscribe-to-comments {
@@ -1041,6 +1064,7 @@ p.pages,
 	margin-bottom: 5rem;
 }
 
+.after-post-block,
 .author-box,
 .author-box h1,
 .breadcrumb,
@@ -1618,6 +1642,10 @@ textarea {
 	padding: 16px;
 	padding: 1rem;
 	width: 100%;
+}
+
+.after-post-block .enews-widget input {
+	width: 50%;
 }
 
 #header .search-form {

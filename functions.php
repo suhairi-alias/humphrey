@@ -60,6 +60,16 @@ function humphrey_post_nav(){
 	}
 }
 
+// Add after post block section to single post page
+add_action( 'genesis_after_post_content', 'humphrey_after_post_block'  ); 
+function humphrey_after_post_block() {
+	if ( is_single() && is_active_sidebar( 'after-post-block' ) ) {
+	echo '<div class="after-post-block"><div class="wrap">';
+	dynamic_sidebar( 'after-post-block' );
+	echo '</div></div>';
+	}
+}
+
 // Create portfolio custom post type
 add_action( 'init', 'humphrey_portfolio_post_type' );
 function humphrey_portfolio_post_type() {
@@ -122,6 +132,11 @@ genesis_register_sidebar( array(
 	'id'			=> 'home-right',
 	'name'			=> __( 'Home Right', 'humphrey' ),
 	'description'		=> __( 'This is the homepage right section.', 'humphrey' ),
+) );
+genesis_register_sidebar( array(
+	'id'		=> 'after-post-block',
+	'name'		=> __( 'After Post Block', 'humphrey' ),
+	'description'	=> __( 'This is the after post block section.', 'humphrey' ),
 ) );
 genesis_register_sidebar( array(
 	'id'			=> '404-page',
