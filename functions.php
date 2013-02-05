@@ -4,7 +4,7 @@ require_once( get_template_directory() . '/lib/init.php' );
 
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'Humphrey Theme' );
-define( 'CHILD_THEME_URL', 'http://wpcanada.ca/' );
+define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/humphrey' );
 
 // Add Viewport meta tag for mobile browsers
 add_action( 'genesis_meta', 'humphrey_viewport_meta_tag' );
