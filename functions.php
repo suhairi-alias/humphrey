@@ -2,6 +2,9 @@
 // Start the engine
 require_once( get_template_directory() . '/lib/init.php' );
 
+// Localization
+load_child_theme_textdomain( 'humphrey', get_stylesheet_directory() . '/lib/languages' );
+
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'Humphrey Theme' );
 define( 'CHILD_THEME_URL', 'http://wpcanada.ca/our-themes/humphrey' );

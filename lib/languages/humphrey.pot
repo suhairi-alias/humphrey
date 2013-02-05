@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Humphrey\n"
+"POT-Creation-Date: 2013-02-05 05:58-0600\n"
+"PO-Revision-Date: 2013-02-05 05:59-0600\n"
+"Last-Translator: \n"
+"Language-Team: WPCanada <lkutchma@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../functions.php:82 ../../functions.php:83
+msgid "Portfolio"
+msgstr ""
+
+#: ../../functions.php:159
+msgid "Home Slider"
+msgstr ""
+
+#: ../../functions.php:160
+msgid "This is the homepage slider section."
+msgstr ""
+
+#: ../../functions.php:164
+msgid "Home Welcome"
+msgstr ""
+
+#: ../../functions.php:165
+msgid "This is the homepage welcome section."
+msgstr ""
+
+#: ../../functions.php:169
+msgid "Home Left"
+msgstr ""
+
+#: ../../functions.php:170
+msgid "This is the homepage left section."
+msgstr ""
+
+#: ../../functions.php:174
+msgid "Home Right"
+msgstr ""
+
+#: ../../functions.php:175
+msgid "This is the homepage right section."
+msgstr ""
+
+#: ../../functions.php:179
+msgid "After Post Block"
+msgstr ""
+
+#: ../../functions.php:180
+msgid "This is the after post block section."
+msgstr ""
+
+#: ../../functions.php:184
+msgid "404 Page"
+msgstr ""
+
+#: ../../functions.php:185
+msgid "This is the widget area of the 404 Not Found Page Template."
+msgstr ""
