@@ -49,7 +49,7 @@ function humphrey_home_loop_helper() {
 		}
 
 		if ( is_active_sidebar( 'home-right' ) ) {
-			echo '<div id="homepage-right">';
+			echo '<div id="homepage-right" class="widget-area">';
 			dynamic_sidebar( 'home-right' );
 			echo '</div><!-- end #homepage-right -->';
 		}

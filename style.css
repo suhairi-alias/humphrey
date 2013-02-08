@@ -5,7 +5,7 @@
 	Author: WPCanada
 	Author URI: http://wpcanada.ca/
  
-	Version: 2.0
+	Version: 2.0.1
  
 	Tags: black, red, white, grey, one-column, two-columns, three-columns, slider, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
  
@@ -480,18 +480,18 @@ pre {
 	width: 37.777777777%; /* 340px / 900px */
 }
 
+#title-area {
+	width: 45% /* 495px / 1100px */
+}
+
 #header .widget-area {
-	width: 36.363636363% /* 400px / 1100 */
+	width: 54% /* 594px / 1100 */
 }
 
 .content-sidebar-sidebar #content,
 .sidebar-content-sidebar #content,
 .sidebar-sidebar-content #content {
 	width: 57.777777777%; /* 520px / 900px */
-}
-
-#title-area {
-	width: 60% /* 660px / 1100px */
 }
 
 .content-sidebar #content,
@@ -574,7 +574,7 @@ pre {
 	min-height: 120px;
 	overflow: hidden;
 	text-indent: -9999px;
-	width: 60%;
+	width: 45%;
 }
 
 .header-image #description {
@@ -1983,6 +1983,13 @@ html > body.humphrey-home .slide-excerpt-border {
 	word-wrap: break-word;
 }
 
+#homepage-right .latest-tweets ul li {
+	list-style-type: none;
+	margin-bottom: 15px;
+	margin-bottom: 0.9375rem;
+	word-wrap: break-word;
+}
+
 #homepage-right .entry {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
@@ -2055,6 +2062,10 @@ html > body.humphrey-home .slide-excerpt-border {
 	#subnav .wrap {
 		max-width: 960px;
 	}
+
+	.genesis-nav-menu li.right {
+		display: none;
+	}
 }
 
 /* iPads (portrait) ----------- */
@@ -2125,7 +2136,6 @@ html > body.humphrey-home .slide-excerpt-border {
 	}
 
 	.flex-direction-nav,
-	.genesis-nav-menu li.right,
 	.humphrey-home .slide-excerpt {
 		display: none;
 	}

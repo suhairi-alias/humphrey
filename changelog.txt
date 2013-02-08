@@ -27,3 +27,6 @@
 
 05 FEB 2013 - Version 2.0
   * complete theme re-write
+
+07 FEB 2013 - Version 2.0.1
+  * minor updates to header widget area menu and latest tweets widget
