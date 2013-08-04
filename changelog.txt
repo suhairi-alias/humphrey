@@ -30,3 +30,6 @@
 
 07 FEB 2013 - Version 2.0.1
   * minor updates to header widget area menu and latest tweets widget
+
+03 AUG 2013 - version 2.0.2
+  * fixed translation problem

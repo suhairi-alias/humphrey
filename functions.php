@@ -43,19 +43,19 @@ add_image_size( 'small', 80, 80, TRUE );
 add_image_size( 'portfolio', 340, 230, TRUE );
 
 // Add single post navigation
-add_action('genesis_before_comments', 'humphrey_post_nav');
+add_action( 'genesis_before_comments', 'humphrey_post_nav' );
 function humphrey_post_nav(){
 	if (is_single()) {
 	echo '<div class="post-nav">';
 	echo '<div class="next-post-nav">';
 	echo '<span class="next">';
-	echo 'Next Article';
+	echo (__( 'Next Article', 'humphrey' ));
 	echo '</span>';
 	echo next_post_link('%link', '%title');
 	echo '</div>';
 	echo '<div class="prev-post-nav">';
 	echo '<span class="prev">';
-	echo 'Previous Article';
+	echo (__( 'Previous Article', 'humphrey' ));
 	echo '</span>';
 	echo previous_post_link('%link', '%title');
 	echo '</div>';
